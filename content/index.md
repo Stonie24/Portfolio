@@ -6,6 +6,11 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Hello my name is William Stenqvist and im a programmer at BTH. Im making this project to lear more about github and the design element about programming.
+## About Me
+Im originally from Gothenburg but moves down to Karlskrona to study, i've got to say it's on of the **best** choises i've ever made! 
 
-This is a sample home page written in markdown with some frontmatter defined.
+![Picture of me](../assets/img/me.png)
+
+
+You can find me on [Github](https://github.com/Stonie24/)
