@@ -10,7 +10,6 @@ Hello my name is William Stenqvist and im a programmer at BTH. Im making this pr
 ## About Me
 Im originally from Gothenburg but moves down to Karlskrona to study, i've got to say it's on of the **best** choises i've ever made! 
 
-![Picture of me](../assets/img/me.png)
+<img src="assets/img/me.png" alt="me" style="height: 200px;">
 
 
-You can find me on [Github](https://github.com/Stonie24/)
