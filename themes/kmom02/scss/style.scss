@@ -1,0 +1,47 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+// $main-font: 'Ysabeau SC', sans-serif;
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+p { 
+    font-size: 1.4em;
+    line-height: 1.4;
+    width: 64rem;
+    margin: 1.96rem auto;
+    margin-bottom: 1.96rem;
+    color: rgb(54, 54, 54);
+}
+
+
+h1,h2,h3,h4,h5,h6{ 
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.site-header {
+
+}
+
+.footer {
+    
+}
