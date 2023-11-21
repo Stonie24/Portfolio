@@ -6478,3 +6478,11 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ysabeau SC", sans-serif;
 }
+
+.site-header {
+  background-color: #08780e;
+}
+
+.header {
+  background-color: #054608;
+}
