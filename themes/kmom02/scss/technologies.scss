@@ -1,0 +1,73 @@
+.landingpage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .landingpage {
+        grid-template-columns: 1fr;
+    }
+
+    [class^="t"] {
+        border: 1px solid #090909;
+        padding: 1rem;
+        max-width: 95vw
+    }
+
+    .landingpage h1 {
+        text-align: center;
+        max-width: 95vw
+    }
+}
+
+[class^="t-"] {
+    border: 1px solid #090909;
+    padding: 1rem;
+    
+}
+
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu {
+    width: 20%;
+}
+
+@media only screen and (min-width: 601px) {
+    .landingpage h1 {
+        grid-column: span 3;
+        text-align: center;
+    }
+    
+    .tech-content { 
+        width: 60%;
+    }
+    
+    .t-css {
+        grid-column: span 1;
+    }
+    
+    .t-html{
+        grid-column-end: span 2;
+    }
+    
+    .t-js{
+        grid-column-start: span 2;
+        grid-column-end: span 3;
+    }
+    
+    
+    .t-python{
+        grid-column-end: span 3;
+        text-align: center;
+    }
+    
+    .t-git{
+        grid-column-start: span 2;
+    }
+}
+
