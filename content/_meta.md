@@ -1,6 +1,5 @@
 ---
 Logo: image/newdesignlogo.jpg
-Tagline: My portfolio.
 
 social:
     - title: Link till sidans github repo.
@@ -10,4 +9,12 @@ social:
     - title: Link till godisbutik.
       url: https://www.apple.com/se/apple-pay/
       icon: fab fa-apple-pay
+
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

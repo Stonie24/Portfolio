@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'dark-variables';
 @import '../../node_modules/normalize.css/normalize';
 @import 'blockquotes';
 @import 'code';
@@ -9,22 +9,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import 'gallery';
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 // $main-font: 'Ysabeau SC', sans-serif;
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
 
 .main {
-    flex-grow: 1;
     width: 64em;
     margin: 0 auto;
-    background-color:seashell;
-    padding: 8px;
 }
 
 // .site-header {
@@ -38,7 +28,7 @@ html, body {
 * {
     text-decoration: none;
     color: $font-color;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 p {
@@ -48,7 +38,6 @@ p {
     margin: 1.96rem auto;
     margin-bottom: 1.96rem;
     color: $font-color;
-    padding: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,12 +48,14 @@ h1 {
 }
 .nav a, .nav-toggle {
     text-decoration: underline;
-    color: $font-alternative-color;
+    color: $font-color;
 }
 .site-header {
-    display: flex;
     background-color: $header-color;
+    display: flex;
 }
+
+
 
 .social {
     width: 100%;
@@ -77,39 +68,43 @@ h1 {
 [class^=fa] {
     width: 50px;
     height: 50px;
-    color: $icons;
+    color: $font-alternative-color;
     font-size: 2rem;
     margin: 20px;
 }
 
 body {
-    background-color: $background-color;
+    background-color: $background;
 }
 
 .post a{
     color: $font-alternative-color;
 }
-.post {
-    max-height: 25px;
+
+code {
+    background: $header-color;
 }
 
-.footer {
-    background-color: $footer-color;
-    border-top: #207900;
+pre {
+    background: none;
 }
 
-[class^=t-], .rapport {
-    background-color: $icons;
+[class^=t-], .rapport{
+    border: 1px solid $font-alternative-color;
     text-align: center;
 }
 
-.article-content p{
-    width: fit-content;
+[class^=t-] a {
+    text-decoration: underline 1px $font-alternative-color;
+}
+
+img {
+    filter: grayscale(40%);
 }
 
 .title{
-    margin-top: 50px;
     margin-left: 10px;
+    margin-top: 50px;
 }
 
 .nav ul {
@@ -121,13 +116,17 @@ body {
     justify-content: space-between;
     align-items: baseline;
     background-color: $header-color;
-    border-bottom: 1px solid black;
 }
 
 .rapport{
     grid-column-end: span 3 ;
 }
 
-[class^=t-] a {
-    text-decoration: underline 1px $font-alternative-color;
+.link {
+    text-align: center;
+}
+
+.zalando {
+    width: 200px;
+    height: 200px;
 }

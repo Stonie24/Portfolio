@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -6519,40 +6520,15 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.gallery {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.gallery picture {
-  width: 45%;
-}
-
-.gallery img,
-.gallery source {
-  width: 100%;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
 .main {
-  flex-grow: 1;
   width: 64em;
   margin: 0 auto;
-  background-color: seashell;
-  padding: 8px;
 }
 
 * {
   text-decoration: none;
-  color: #2B332D;
-  font-family: "Poppins", sans-serif;
+  color: #EEEEEE;
+  font-family: "Quicksand", sans-serif;
 }
 
 p {
@@ -6561,8 +6537,7 @@ p {
   width: 64rem;
   margin: 1.96rem auto;
   margin-bottom: 1.96rem;
-  color: #2B332D;
-  padding: 5px;
+  color: #EEEEEE;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -6570,17 +6545,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: #1b201c;
+  color: #00ADB5;
 }
 
 .nav a, .nav-toggle {
   text-decoration: underline;
-  color: #1b201c;
+  color: #EEEEEE;
 }
 
 .site-header {
+  background-color: #222831;
   display: flex;
-  background-color: #2DBD58;
 }
 
 .social {
@@ -6595,40 +6570,43 @@ h1 {
 [class^=fa] {
   width: 50px;
   height: 50px;
-  color: #09F04E;
+  color: #00ADB5;
   font-size: 2rem;
   margin: 20px;
 }
 
 body {
-  background-color: #3D8A54;
+  background-color: #393E46;
 }
 
 .post a {
-  color: #1b201c;
+  color: #00ADB5;
 }
 
-.post {
-  max-height: 25px;
+code {
+  background: #222831;
 }
 
-.footer {
-  background-color: #375741;
-  border-top: #207900;
+pre {
+  background: none;
 }
 
 [class^=t-], .rapport {
-  background-color: #09F04E;
+  border: 1px solid #00ADB5;
   text-align: center;
 }
 
-.article-content p {
-  width: fit-content;
+[class^=t-] a {
+  text-decoration: underline 1px #00ADB5;
+}
+
+img {
+  filter: grayscale(40%);
 }
 
 .title {
-  margin-top: 50px;
   margin-left: 10px;
+  margin-top: 50px;
 }
 
 .nav ul {
@@ -6639,14 +6617,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  background-color: #2DBD58;
-  border-bottom: 1px solid black;
+  background-color: #222831;
 }
 
 .rapport {
   grid-column-end: span 3;
 }
 
-[class^=t-] a {
-  text-decoration: underline 1px #1b201c;
+.link {
+  text-align: center;
+}
+
+.zalando {
+  width: 200px;
+  height: 200px;
 }
