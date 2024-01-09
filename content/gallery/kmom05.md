@@ -1,28 +1,107 @@
----
+<!-- ---
 Title: Kmom05
 Description: This is out kmom05 page.
 ---
 
+<div class="gallery">
+    <div class="item">
+        <h2 class="overlay-text">BUD530</h2>
+        <a href="%base_url%/image/kmom05/frozenbubble.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/frozenbubble.jpg?h=300&w=300&crop-to-fit">
+                <source media="(max-width: 376px)" srcset="%base_url%/image//kmom05/frozenbubble.jpg?h=700&w=700&crop-to-fit">
+                <img src="%base_url%/image/kmom05/frozenbubble.jpg" alt="En bil" class="galimg">
+            </picture>
+        </a>
+    </div>
+    <div class="item">
+        <h2 class="overlay-text">BUD530</h2>
+        <a href="%base_url%/image/gallery/bud2.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 750px)" srcset="%base_url%/image//gallery/bud2.jpg?h=300&w=300&crop-to-fit">
+                <source media="(max-width: 376px)" srcset="%base_url%/image//gallery/bud2.jpg?h=700&w=700&crop-to-fit">
+                <img src="%base_url%/image//gallery/bud2.jpg" alt="En bil" class="galimg">
+            </picture>
+        </a>
+    </div>
+    <div class="item">
+    <h2 class="overlay-text">BUD530</h2>
+        <a href="%base_url%/image/gallery/bud3.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 750px)" srcset="%base_url%/image//gallery/bud3.jpg?h=300&w=300&crop-to-fit">
+                <source media="(max-width: 376px)" srcset="%base_url%/image//gallery/bud3.jpg?h=700&w=700&crop-to-fit">
+                <img src="%base_url%/image//gallery/bud3.jpg" alt="En bil" class="galimg">
+                </picture>
+        </a>
+    </div>
+    <div class="item">
+    <h2 class="overlay-text">GEU421</h2>
+        <a href="%base_url%/image/gallery/geu1.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 750px)" srcset="%base_url%/image//gallery/geu1.jpg?h=300&w=300&crop-to-fit">
+                <source media="(max-width: 376px)" srcset="%base_url%/image//gallery/geu1.jpg?h=700&w=700&crop-to-fit">
+                <img src="%base_url%/image//gallery/geu1.jpg" alt="En bil" class="galimg">
+            </picture>
+        </a>
+    </div>
+    <div class="item">
+    <h2 class="overlay-text">GEU421</h2>
+        <a href="%base_url%/image/gallery/geu2.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 750px)" srcset="%base_url%/image//gallery/geu2.jpg?h=300&w=300&crop-to-fit">
+                <source media="(max-width: 376px)" srcset="%base_url%/image//gallery/geu2.jpg?h=700&w=700&crop-to-fit">
+                <img src="%base_url%/image//gallery/geu2.jpg" alt="En bil" class="galimg">
+            </picture>
+        </a>
+    </div>
+    <div class="item">
+    <h2 class="overlay-text">GEU421</h2>
+        <a href="%base_url%/image/gallery/geu3.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 750px)" srcset="%base_url%/image//gallery/geu3.jpg?h=300&w=300&crop-to-fit">
+                <source media="(max-width: 376px)" srcset="%base_url%/image//gallery/geu3.jpg?h=700&w=700&crop-to-fit">
+                <img src="%base_url%/image//gallery/geu3.jpg" alt="En bil" class="galimg">
+            </picture>
+        </a>
+    </div>
+    <div class="item">
+    <h2 class="overlay-text">MAM073</h2>
+        <a href="%base_url%/image/gallery/mam1.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 750px)" srcset="%base_url%/image//gallery/mam1.jpg?h=300&w=300&crop-to-fit">
+                <source media="(max-width: 376px)" srcset="%base_url%/image//gallery/mam1.jpg?h=700&w=700&crop-to-fit">
+                <img src="%base_url%/image//gallery/mam1.jpg" alt="En bil" class="galimg">
+            </picture>
+        </a>
+    </div>
+    <div class="item">
+    <h2 class="overlay-text">MAM073</h2>
+        <a href="%base_url%/image/gallery/mam2.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 750px)" srcset="%base_url%/image//gallery/mam2.jpg?h=300&w=300&crop-to-fit">
+                <source media="(max-width: 376px)" srcset="%base_url%/image//gallery/mam2.jpg?h=700&w=700&crop-to-fit">
+                <img src="%base_url%/image//gallery/mam2.jpg" alt="En bil" class="galimg">
+            </picture>
+        </a>
+    </div>
+    <div class="item">
+    <h2 class="overlay-text">MAM073</h2>
+        <a href="%base_url%/image/gallery/mam3.jpg" target="_blank">
+            <picture>
+                <source media="(max-width: 750px)" srcset="%base_url%/image//gallery/mam3.jpg?h=300&w=300&crop-to-fit">
+                <source media="(max-width: 376px)" srcset="%base_url%/image//gallery/mam3.jpg?h=700&w=700&crop-to-fit">
+                <img src="%base_url%/image//gallery/mam3.jpg" alt="En bil" class="galimg">
+            </picture>
+        </a>
+    </div>
+</div>
 
-<div class="gallery"> 
-    <!-- Om du bara har en bild  -->
-    <picture>
-        <img src="%base_url%/image/sheep.jpg&w=667" alt="A sheep">
-    </picture>
-    <!-- Om du vill skilja mellan små och stora -->
-    <picture>
-        <source media="(min-width: 668px)" srcset="%base_url%/image/sheep.jpg">
-        <img src="%base_url%/image/sheep.jpg&w=667" alt="A sheep">
-    </picture>
-    <!-- Om du vill fitta bilden för mobilanpassning -->
-     <picture>
-        <source media="(min-width: 668px)" srcset="%base_url%/image/sheep.jpg">
-        <img src="%base_url%/image/sheep.jpg?w=667&h=300&crop-to-fit&area=0,25,0,0" alt="A sheep">
-    </picture>
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/32AjM2rM3Tk?si=R-N3L97FyIspYrw5" frameborder="0" allowfullscreen title="Jeremy Clarkson sees monkey"></iframe>
 </div>
 
 
 
 
 
-
+ -->
