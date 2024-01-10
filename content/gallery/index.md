@@ -15,7 +15,7 @@ Gallery
         <a href="%base_url%/image/kmom05/skier.jpg">
             <picture>
                 <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/skier.jpg?w=200&h=200">
-                <img src="%base_url%/image/kmom05/skier.jpg?w=1080&h=980&q=80&area=0,10,0,20&crop-to-fit" alt="En skidåkare" >
+                <img src="%base_url%/image/kmom05/skier.jpg?w=1080&h=980&q=50&area=0,10,0,20&crop-to-fit" alt="En skidåkare" >
             </picture>
         </a>
     </div>
@@ -23,7 +23,7 @@ Gallery
         <a href="%base_url%/image/kmom05/hotbrew.jpg">
             <picture>
                 <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/hotbrew.jpg?w=200&h=200">
-                <img src="%base_url%/image/kmom05/hotbrew.jpg?w=1080&h=980&q=80&area=0,15,0,15&crop-to-fit" alt="En bubbla" >
+                <img src="%base_url%/image/kmom05/hotbrew.jpg?w=1080&h=980&q=50&area=0,15,0,15&crop-to-fit" alt="En bubbla" >
             </picture>
         </a>
     </div>
@@ -31,7 +31,7 @@ Gallery
         <a href="%base_url%/image/kmom05/frozenbubble.jpg">
             <picture>
                 <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/frozenbubble.jpg?w=200&h=200">
-                <img src="%base_url%/image/kmom05/frozenbubble.jpg?w=1080&h=980&q=80&area=0,0,0,30&crop-to-fit" alt="En bubbla" >
+                <img src="%base_url%/image/kmom05/frozenbubble.jpg?w=1080&h=980&q=50&area=0,0,0,30&crop-to-fit" alt="En bubbla" >
             </picture>
         </a>
     </div>
@@ -39,7 +39,7 @@ Gallery
         <a href="%base_url%/image/kmom05/lake.jpg">
             <picture>
                 <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/lake.jpg?w=200&h=200">
-                <img src="%base_url%/image/kmom05/lake.jpg?w=1080&h=980&q=80&area=0,0,0,0&crop-to-fit" alt="En bubbla" >
+                <img src="%base_url%/image/kmom05/lake.jpg?w=1080&h=980&q=50&area=0,0,0,0&crop-to-fit" alt="En bubbla" >
             </picture>
         </a>
     </div>
@@ -47,7 +47,7 @@ Gallery
         <a href="%base_url%/image/kmom05/montain.jpg">
             <picture>
                 <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/montain.jpg?w=200&h=200">
-                <img src="%base_url%/image/kmom05/montain.jpg?w=1080&h=980&q=80&area=0,0,20,0&crop-to-fit" alt="En bubbla" >
+                <img src="%base_url%/image/kmom05/montain.jpg?w=1080&h=980&q=50&area=0,0,20,0&crop-to-fit" alt="En bubbla" >
             </picture>
         </a>
     </div>
@@ -55,7 +55,7 @@ Gallery
         <a href="%base_url%/image/kmom05/cute.jpg">
             <picture>
                 <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/cute.jpg?w=200&h=200">
-                <img src="%base_url%/image/kmom05/cute.jpg?w=1080&h=980&q=80&area=0,0,0,0&crop-to-fit" alt="En bubbla" >
+                <img src="%base_url%/image/kmom05/cute.jpg?w=1080&h=980&q=50&area=0,0,0,0&crop-to-fit" alt="En bubbla" >
             </picture>
         </a>
     </div>
@@ -63,7 +63,7 @@ Gallery
         <a href="%base_url%/image/kmom05/bench.jpg">
             <picture>
                 <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/bench.jpg?w=200&h=200">
-                <img src="%base_url%/image/kmom05/bench.jpg?w=1080&h=980&q=80&area=0,20,0,8&crop-to-fit" alt="En bubbla" >
+                <img src="%base_url%/image/kmom05/bench.jpg?w=1080&h=980&q=50&area=0,20,0,8&crop-to-fit" alt="En bubbla" >
             </picture>
         </a>
     </div>
@@ -71,7 +71,7 @@ Gallery
         <a href="%base_url%/image/kmom05/natur.jpg">
             <picture>
                 <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/natur.jpg?w=200&h=200">
-                <img src="%base_url%/image/kmom05/natur.jpg?w=1080&h=980&q=80&area=0,0,0,0&crop-to-fit" alt="En bubbla" >
+                <img src="%base_url%/image/kmom05/natur.jpg?w=1080&h=980&q=50&area=0,0,0,0&crop-to-fit" alt="En bubbla" >
             </picture>
         </a>
     </div>
@@ -79,7 +79,7 @@ Gallery
         <a href="%base_url%/image/kmom05/extra.jpg">
             <picture>
                 <source media="(max-width: 750px)" srcset="%base_url%/image//kmom05/extra.jpg?w=200&h=200">
-                <img src="%base_url%/image/kmom05/extra.jpg?w=1080&h=980&q=80&area=0,0,0,0&crop-to-fit" alt="En bubbla" >
+                <img src="%base_url%/image/kmom05/extra.jpg?w=1080&h=980&q=50&area=0,0,0,0&crop-to-fit" alt="En bubbla" >
             </picture>
         </a>
     </div>

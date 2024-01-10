@@ -49,14 +49,32 @@ h1 {
 }
 .nav a, .nav-toggle {
     text-decoration: underline;
-    color: $font-color;
+    color: $font-alternative-color;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
 }
+
+#nav  {
+    font-size: 1.7em;
+}
+
+@keyframes example {
+    0%   {background-color:#222831; right:0px; top:0px;}
+    25%  {background-color:#AA6373; right:200px; top:0px;}
+    50%  {background-color:#114B5F; right:200px; top:200px;}
+    75%  {background-color:#0E1428; right:0px; top:200px;}
+    100% {background-color:#222831; right:0px; top:0px;}
+}
+
 .site-header {
     background-color: $header-color;
     display: flex;
 }
 
-
+#logo {
+    width: 100%;
+}
 
 .social {
     width: 100%;

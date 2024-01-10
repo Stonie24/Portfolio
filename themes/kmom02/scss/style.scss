@@ -61,12 +61,30 @@ h1 {
 .nav a, .nav-toggle {
     text-decoration: underline;
     color: $font-alternative-color;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@media (min-width: 750px) { 
+    #nav  {
+        font-size: 1.7em;
+    }
+}
+
+@keyframes example {
+    0%   {background-color:rgba(45, 178, 138, 0.337); right:0px; top:0px;}
+    25%  {background-color:rgb(88, 103, 147); right:200px; top:0px;}
+    50%  {background-color:rgb(124, 105, 142); right:200px; top:200px;}
+    75%  {background-color:rgba(194, 143, 178, 0.87); right:0px; top:200px;}
+    100% {background-color:#87A0B2; right:0px; top:0px;}
 }
 .site-header {
     display: flex;
     background-color: $header-color;
 }
-
+#logo {
+    width: 100%;
+}
 .social {
     width: 100%;
     text-align: center;
@@ -132,3 +150,5 @@ body {
 [class^=t-] a {
     text-decoration: underline 1px $font-alternative-color;
 }
+
+
